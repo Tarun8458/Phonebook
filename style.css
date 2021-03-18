@@ -1,0 +1,28 @@
+div{
+    background: grey;
+    position: sticky;
+    top: 5px;
+    font-size: 2rem;
+    border: 2px solid black;
+}
+
+ul li:hover::marker {
+    content: '\1F4DE';
+    color: grey;
+  }
+
+li{
+    list-style-type: none;
+    
+}
+
+li:nth-child(odd){
+    color: salmon;
+}
+li:nth-child(even){
+    color:gray;
+}
+li::before{
+    
+    content: "\2706";
+}
